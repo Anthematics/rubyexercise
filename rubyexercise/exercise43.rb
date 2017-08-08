@@ -1,7 +1,7 @@
-puts "What is your name?"
-user_name = gets
-if name == jason
-  puts "we have the same name" # this line executes if the user enters a positive number
-else
-  puts "#{number} is negative" # this line executes if the user enters a negative number
-end
+  name ="jason"
+  puts "What is your name?"
+    user_name = gets.chomp
+  puts "Hello, #{user_name}"
+    if name == user_name
+      puts "we have the same name"
+    end
