@@ -8,7 +8,7 @@
 
 favorite_colours = ["navy blue", "black", "forest green"]
 our_ages = [28,24,27,26,25,30]
-coin_flip = ["heads","tails","tails","tails","heads"]
+coin_flip = ["heads","heads","tails","tails","heads"]
 artists = ["broken social scene", "the gorillaz", "lcd soundsystem"]
 favorite_colourssy = [:navyblue, :black, :forestgreen]
 
@@ -62,7 +62,19 @@ print"#{our_ages}"
 
 print "#{favorite_movies.values[2]}"
 
-# lunch_order.each do { |key, value| puts value }
-
-
+# Print out the last element of the array of your favourite colours.
+# Note: this should work for an array of any size!
+# Add a new city to the hash of cities and population.
+# Reverse the array of coin flips and save it.
+# Print out the population of one of the cities.
+# Print out a sentence about each item in the array of performing artists. For example:
+# I think Pearl Jam is great.
+# I think Lady Gaga is great.
 # I think Pink Floyd is great.
+# I think Pink Floyd is great.
+
+print "#{favorite_colours.last}"
+cities=[:NewYorkCity=>"8.5 million"]
+print"#{coin_flip.reverse}"
+print "#{cities.sample}"
+print"I think #{artists} are great"
