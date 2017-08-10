@@ -1,2 +1,0 @@
-# rubyexercise
-basic ruby exercises
