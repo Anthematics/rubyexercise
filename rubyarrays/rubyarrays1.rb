@@ -60,13 +60,9 @@ print"#{our_ages.sort}"
 our_ages << 0
 print"#{our_ages}"
 
-# If you haven't done so recently, now would be a good time to check that your code works and commit once it does.
-# Print out the last element of the array of your favourite colours.
-# Note: this should work for an array of any size!
-# Add a new city to the hash of cities and population.
-# Reverse the array of coin flips and save it.
-# Print out the population of one of the cities.
-# Print out a sentence about each item in the array of performing artists. For example:
-# I think Pearl Jam is great.
-# I think Lady Gaga is great.
+print "#{favorite_movies.values[2]}"
+
+# lunch_order.each do { |key, value| puts value }
+
+
 # I think Pink Floyd is great.
